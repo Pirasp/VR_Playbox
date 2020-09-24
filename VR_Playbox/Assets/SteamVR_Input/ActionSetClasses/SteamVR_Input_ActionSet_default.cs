@@ -17,27 +17,11 @@ namespace Valve.VR
     public class SteamVR_Input_ActionSet_default : Valve.VR.SteamVR_ActionSet
     {
         
-        public virtual SteamVR_Action_Boolean GrabObjectR
+        public virtual SteamVR_Action_Boolean InteractUI
         {
             get
             {
-                return SteamVR_Actions.default_GrabObjectR;
-            }
-        }
-        
-        public virtual SteamVR_Action_Boolean GrabMoveR
-        {
-            get
-            {
-                return SteamVR_Actions.default_GrabMoveR;
-            }
-        }
-        
-        public virtual SteamVR_Action_Boolean LaserActivate
-        {
-            get
-            {
-                return SteamVR_Actions.default_LaserActivate;
+                return SteamVR_Actions.default_InteractUI;
             }
         }
         
@@ -49,19 +33,83 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Boolean GrabMoveL
+        public virtual SteamVR_Action_Boolean GrabPinchR
         {
             get
             {
-                return SteamVR_Actions.default_GrabMoveL;
+                return SteamVR_Actions.default_GrabPinchR;
             }
         }
         
-        public virtual SteamVR_Action_Boolean GrabObjectL
+        public virtual SteamVR_Action_Boolean GrabGripR
         {
             get
             {
-                return SteamVR_Actions.default_GrabObjectL;
+                return SteamVR_Actions.default_GrabGripR;
+            }
+        }
+        
+        public virtual SteamVR_Action_Pose Pose
+        {
+            get
+            {
+                return SteamVR_Actions.default_Pose;
+            }
+        }
+        
+        public virtual SteamVR_Action_Skeleton SkeletonLeftHand
+        {
+            get
+            {
+                return SteamVR_Actions.default_SkeletonLeftHand;
+            }
+        }
+        
+        public virtual SteamVR_Action_Skeleton SkeletonRightHand
+        {
+            get
+            {
+                return SteamVR_Actions.default_SkeletonRightHand;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean HeadsetOnHead
+        {
+            get
+            {
+                return SteamVR_Actions.default_HeadsetOnHead;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean GrabGripL
+        {
+            get
+            {
+                return SteamVR_Actions.default_GrabGripL;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean GrabPinchL
+        {
+            get
+            {
+                return SteamVR_Actions.default_GrabPinchL;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean laserActivate
+        {
+            get
+            {
+                return SteamVR_Actions.default_laserActivate;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean MenuActivate
+        {
+            get
+            {
+                return SteamVR_Actions.default_MenuActivate;
             }
         }
         

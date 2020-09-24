@@ -52,25 +52,16 @@
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/default/in/grabmovel"
+                     "output" : "/actions/default/in/grabgripr"
                   }
                },
                "mode" : "button",
-               "path" : "/user/hand/left/input/grip"
+               "path" : "/user/hand/right/input/trigger"
             },
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/default/in/grabmover"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/right/input/grip"
-            },
-            {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/default/in/grabobjectl"
+                     "output" : "/actions/default/in/grabgripl"
                   }
                },
                "mode" : "button",
@@ -79,11 +70,20 @@
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/default/in/grabobjectr"
+                     "output" : "/actions/default/in/grabpinchl"
                   }
                },
                "mode" : "button",
-               "path" : "/user/hand/right/input/trigger"
+               "path" : "/user/hand/left/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/grabpinchr"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/grip"
             }
          ]
       },
@@ -98,7 +98,7 @@
    "category" : "steamvr_input",
    "controller_type" : "knuckles",
    "description" : "",
-   "name" : "knuckles_default",
+   "name" : "VRP_knuckles",
    "options" : {},
    "simulated_actions" : []
 }
