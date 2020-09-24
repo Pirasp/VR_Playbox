@@ -33,19 +33,19 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Boolean GrabPinchR
+        public virtual SteamVR_Action_Boolean GrabPinch
         {
             get
             {
-                return SteamVR_Actions.default_GrabPinchR;
+                return SteamVR_Actions.default_GrabPinch;
             }
         }
         
-        public virtual SteamVR_Action_Boolean GrabGripR
+        public virtual SteamVR_Action_Boolean GrabGrip
         {
             get
             {
-                return SteamVR_Actions.default_GrabGripR;
+                return SteamVR_Actions.default_GrabGrip;
             }
         }
         
@@ -73,6 +73,14 @@ namespace Valve.VR
             }
         }
         
+        public virtual SteamVR_Action_Single Squeeze
+        {
+            get
+            {
+                return SteamVR_Actions.default_Squeeze;
+            }
+        }
+        
         public virtual SteamVR_Action_Boolean HeadsetOnHead
         {
             get
@@ -81,35 +89,19 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Boolean GrabGripL
+        public virtual SteamVR_Action_Boolean SnapTurnLeft
         {
             get
             {
-                return SteamVR_Actions.default_GrabGripL;
+                return SteamVR_Actions.default_SnapTurnLeft;
             }
         }
         
-        public virtual SteamVR_Action_Boolean GrabPinchL
+        public virtual SteamVR_Action_Boolean SnapTurnRight
         {
             get
             {
-                return SteamVR_Actions.default_GrabPinchL;
-            }
-        }
-        
-        public virtual SteamVR_Action_Boolean laserActivate
-        {
-            get
-            {
-                return SteamVR_Actions.default_laserActivate;
-            }
-        }
-        
-        public virtual SteamVR_Action_Boolean MenuActivate
-        {
-            get
-            {
-                return SteamVR_Actions.default_MenuActivate;
+                return SteamVR_Actions.default_SnapTurnRight;
             }
         }
         
