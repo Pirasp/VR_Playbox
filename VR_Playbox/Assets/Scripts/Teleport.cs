@@ -14,6 +14,7 @@ public class Teleport : MonoBehaviour
     public GameObject laserPrefab;
     public int maxDistance = 100;
     private GameObject laser;
+    public GameObject camRig, camera;
 
     private void Start()
     {
@@ -30,10 +31,25 @@ public class Teleport : MonoBehaviour
             {
                 Laser.ShowLaser(controllerPose.transform.position, hit.point, laser);
             }
+            else
+            {
+                Laser.ShowLaser(controllerPose.transform.position, 
+                    controllerPose.transform.position+controllerPose.transform.forward*maxDistance, laser);
+            }
         }
         else
         {
             laser.SetActive(false);
+        }
+
+        if (teleportAction.GetLastStateDown(inputSource))
+        {
+            RaycastHit hit;
+            if (Physics.Raycast(controllerPose.transform.position, transform.forward, out hit, maxDistance))
+            {
+                Vector3 offset = new Vector3(camera.transform.position.x, 0, camera.transform.position.z);
+                camRig.transform.position = hit.point-offset;
+            }
         }
     }
 }
