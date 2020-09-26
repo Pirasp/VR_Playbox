@@ -54,6 +54,14 @@
       "type": "boolean"
     },
     {
+      "name": "/actions/default/in/PinchMoveLeft",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/PinchMoveRight",
+      "type": "boolean"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },
