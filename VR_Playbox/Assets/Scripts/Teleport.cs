@@ -48,7 +48,9 @@ public class Teleport : MonoBehaviour
             if (Physics.Raycast(controllerPose.transform.position, transform.forward, out hit, maxDistance))
             {
                 Vector3 offset = new Vector3(playerCamera.transform.position.x, 0, playerCamera.transform.position.z);
-                camRig.transform.position = hit.point-offset;
+                Vector3 camxz = new Vector3(camRig.transform.position.x, 0, camRig.transform.position.z);
+                offset -= camxz;
+                camRig.transform.position = hit.point - offset;
             }
         }
     }
