@@ -20,27 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3e86d46-3f61-4260-a88d-14fc563a1667" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Playbox/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Playbox/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Playbox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Playbox/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Teleport.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Teleport.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/04/046bfc81853e74b20ed3bcb4c89e58a1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/10/103c2e9195d13c7f513f91601a65d44f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/20/20d3944fbd49d74358cc18cf9db8456b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/20/20e88a16fe694348d81b61001a0990c7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/33/335cec1e10bec183c33f8af5129dd80c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/64/648c6643506dca825f635ba96b528ffb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/70/7080473b6aac9a6f25ea87cf5f9992f4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8a/8a31372e03bf34d0e021d7b8aeb62e39" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a3/a335a556770fb00ea20db296ef2dd503" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b3/b3e5429437d0d5002f5eab219f43b0c9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/bb/bbc6759329c62f8c1b3772755172a10b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/be/beb748faa5d6482ffae43a9e6f16f754" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f2/f2b504d2449b0f7bb32bc2249ea96229" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/fa/fa5deae86c1252770c85a2b14968293a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2c/2c254e67b7704076b2f540cd9160398a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b9/b943ec893d2c5b1c0bc8f0a8a670b246" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/bc/bc019dcd61276b722c3a0c8cf5a8db2b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/6dec1b-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/6dec1b-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/a57f3d-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/a57f3d-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +48,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PinchMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Teleport.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GrabObject.cs" />
       </list>
     </option>
   </component>
@@ -103,6 +96,7 @@
       <updated>1600951766713</updated>
       <workItem from="1600951774257" duration="2295000" />
       <workItem from="1601126635181" duration="3848000" />
+      <workItem from="1603648297299" duration="720000" />
     </task>
     <servers />
   </component>
