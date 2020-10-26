@@ -16,6 +16,8 @@ public class GrabObject : MonoBehaviour
     public SteamVR_Input_Sources inputSource;
     public SteamVR_Behaviour_Pose pose;
     public SteamVR_Action_Boolean grabObject;
+    public bool useTag;
+    public string tag;
 
     private void Start()
     {
@@ -36,9 +38,12 @@ public class GrabObject : MonoBehaviour
     {
         if (grabObject.GetStateDown(inputSource) && collidingObject && !holdingObject && collidingObject.GetComponent<Rigidbody>())
         {
-            holdJoint = new FixedJoint();
-            holdJoint.connectedBody = collidingObject.GetComponent<Rigidbody>();
-            holdingObject = collidingObject;
+            if ((useTag && collidingObject.tag == tag) || !useTag)
+            {
+                holdJoint = new FixedJoint();
+                holdJoint.connectedBody = collidingObject.GetComponent<Rigidbody>();
+                holdingObject = collidingObject;
+            }
         }
 
         if (grabObject.GetLastStateUp(inputSource) && holdingObject)
