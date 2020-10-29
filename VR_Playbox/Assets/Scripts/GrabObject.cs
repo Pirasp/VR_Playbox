@@ -40,7 +40,9 @@ public class GrabObject : MonoBehaviour
         {
             if ((useTag && collidingObject.tag == tag) || !useTag)
             {
-                holdJoint = new FixedJoint();
+                holdJoint = gameObject.AddComponent<FixedJoint>();
+                holdJoint.breakForce = float.PositiveInfinity;
+                holdJoint.breakTorque = float.PositiveInfinity;
                 holdJoint.connectedBody = collidingObject.GetComponent<Rigidbody>();
                 holdingObject = collidingObject;
             }
@@ -48,7 +50,15 @@ public class GrabObject : MonoBehaviour
 
         if (grabObject.GetLastStateUp(inputSource) && holdingObject)
         {
-            Destroy(holdJoint);
+
+                holdJoint.connectedBody = null;
+                Destroy(holdJoint);
+                
+                holdingObject.GetComponent<Rigidbody>().velocity = pose.GetVelocity();
+                holdingObject.GetComponent<Rigidbody>().angularVelocity = pose.GetAngularVelocity();
+
+                holdingObject = null;
         }
+            
     }
 }
