@@ -10,6 +10,7 @@
           <e p="GrabObject.cs" t="Include" />
           <e p="Laser.cs" t="Include" />
           <e p="PinchMove.cs" t="Include" />
+          <e p="ResetGameItems.cs" t="Include" />
           <e p="SpawnThrowable.cs" t="Include" />
           <e p="Teleport.cs" t="Include" />
           <e p="thrownObjectStuff.cs" t="Include" />

@@ -2,13 +2,13 @@
   "source": "Unity",
   "applications": [
     {
-      "app_key": "application.generated.unity.vrtest.exe",
+      "app_key": "application.generated.unity.vr_playbox.exe",
       "launch_type": "url",
       "url": "steam://launch/",
       "action_manifest_path": "C:\\Users\\johan\\Videos\\UnityVR\\VR_Playbox\\VR_Playbox\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
-          "name": "vrtest [Testing]"
+          "name": "VR_Playbox [Testing]"
         }
       }
     }
