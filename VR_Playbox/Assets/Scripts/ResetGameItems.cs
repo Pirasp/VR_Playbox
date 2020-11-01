@@ -6,7 +6,7 @@ public class ResetGameItems : MonoBehaviour
 {
 
     public GameObject[] gameItems;
-    private Transform[] gameItemPositions;
+    public Transform[] gameItemPositions;
     
     void Start()
     {
