@@ -105,30 +105,6 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Boolean LaserActivate
-        {
-            get
-            {
-                return SteamVR_Actions.default_LaserActivate;
-            }
-        }
-        
-        public virtual SteamVR_Action_Boolean PinchMoveLeft
-        {
-            get
-            {
-                return SteamVR_Actions.default_PinchMoveLeft;
-            }
-        }
-        
-        public virtual SteamVR_Action_Boolean PinchMoveRight
-        {
-            get
-            {
-                return SteamVR_Actions.default_PinchMoveRight;
-            }
-        }
-        
         public virtual SteamVR_Action_Vibration Haptic
         {
             get

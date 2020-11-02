@@ -2,13 +2,13 @@
   "source": "Unity",
   "applications": [
     {
-      "app_key": "application.generated.unity.vr_playbox.exe",
+      "app_key": "application.generated.unity.vr_playbox_rebuild.exe",
       "launch_type": "url",
       "url": "steam://launch/",
       "action_manifest_path": "C:\\Users\\johan\\Videos\\UnityVR\\VR_Playbox\\VR_Playbox\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
-          "name": "VR_Playbox [Testing]"
+          "name": "VR_Playbox_rebuild [Testing]"
         }
       }
     }
