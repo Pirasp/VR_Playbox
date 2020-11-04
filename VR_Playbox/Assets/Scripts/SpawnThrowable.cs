@@ -10,6 +10,10 @@ public class SpawnThrowable : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        Instantiate(throwablePrefab, spawnPosition.position, spawnPosition.rotation, null);
+        if (ThrowManager.instance.curballs < ThrowManager.instance.maxballs)
+        {
+            Instantiate(throwablePrefab, spawnPosition.position, spawnPosition.rotation, null);
+            ThrowManager.instance.curballs++;
+        }
     }
 }

@@ -13,17 +13,19 @@ public class thrownObjectStuff : MonoBehaviour
     {
         gameObject.AddComponent<Rigidbody>();
         audioSource = gameObject.AddComponent<AudioSource>();
+        StartCoroutine(Despawn());
     }
 
-    private void OnCollisionEnter(Collision other)
+    /*private void OnCollisionEnter(Collision other)
     {
         if(impactAudioClip)
             audioSource.PlayOneShot(impactAudioClip);
-    }
+    }*/
 
     IEnumerator Despawn()
     {
         yield return new WaitForSeconds(lifetime);
+        ThrowManager.instance.curballs--;
         Destroy(this.gameObject);
     }
 }
