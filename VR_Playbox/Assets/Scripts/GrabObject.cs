@@ -45,6 +45,7 @@ public class GrabObject : MonoBehaviour
                 holdJoint.breakTorque = float.PositiveInfinity;
                 holdJoint.connectedBody = collidingObject.GetComponent<Rigidbody>();
                 holdingObject = collidingObject;
+                holdingObject.SendMessage("Grab", SendMessageOptions.DontRequireReceiver);
             }
         }
 
@@ -53,6 +54,8 @@ public class GrabObject : MonoBehaviour
 
                 holdJoint.connectedBody = null;
                 Destroy(holdJoint);
+                
+                holdingObject.SendMessage("Release", SendMessageOptions.DontRequireReceiver);
                 
                 holdingObject.GetComponent<Rigidbody>().velocity = pose.GetVelocity();
                 holdingObject.GetComponent<Rigidbody>().angularVelocity = pose.GetAngularVelocity();
