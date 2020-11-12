@@ -20,32 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d63b449-0cc0-465d-a461-6844e1088ff2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Playbox/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Playbox/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Playbox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Playbox/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GrabObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GrabObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnThrowable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnThrowable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/thrownObjectStuff.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/thrownObjectStuff.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/07/07cd5f2a58b3e8be25ea88e6178b4251" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/08/08926a999ed004b4f3829c72a0edd3aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2b/2b81901af1c58f36b8046a3340fdee4d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/36/36bcf3a30e5e7413e4e51ff10197a868" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3c/3cf526adebbc26fa048b16352c9e551e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/67/67552ed6321dfc3ef924043d834bbfba" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7b/7bd9a790bb02c242246e63f574c447db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7c/7c30ec77704673d9efb1aaf925f500c3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/85/85cb36dfd930901e3f113aaa17135f07" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8b/8bd378e92b7e05bec017261ed9970965" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ae/ae3b5df04a2863258a4d9afb9b60a155" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b9/b92aa56c3354258789bca6df7ef749e5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/cd/cda102b11cf5929dc72c1b1137b094ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d4/d496abe559f3d5d0c86e1b135c6d655d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e8/e83dd7d4896b7aa0b9dd2bc6075cbfe3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ec/ecda288b756ec3174a6da072c6ea5945" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ee/ee37f00db968f00d00613bb97da2e97a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f7/f7cf35a0f935e74507e0abb45d30c702" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b4/b45c4efd54c4330011cc764660499db1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/6dec1b-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/6dec1b-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +57,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/ThrowManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnThrowable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/thrownObjectStuff.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptCollectionImports/GenericButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ResetGameItems.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GrabObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnThrowable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/thrownObjectStuff.cs" />
       </list>
     </option>
   </component>
@@ -127,7 +110,8 @@
       <updated>1604345957579</updated>
       <workItem from="1604345978709" duration="444000" />
       <workItem from="1604518180696" duration="3310000" />
-      <workItem from="1605128319952" duration="289000" />
+      <workItem from="1605128319952" duration="377000" />
+      <workItem from="1605201715502" duration="748000" />
     </task>
     <servers />
   </component>

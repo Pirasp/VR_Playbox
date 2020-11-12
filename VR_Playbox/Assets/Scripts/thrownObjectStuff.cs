@@ -8,12 +8,19 @@ public class thrownObjectStuff : MonoBehaviour
     public AudioClip impactAudioClip;
     private AudioSource audioSource;
     public float lifetime = 30;
+    public SpawnThrowable spawnThrowable;
 
     private void Start()
     {
         gameObject.AddComponent<Rigidbody>();
         audioSource = gameObject.AddComponent<AudioSource>();
         StartCoroutine(Despawn());
+    }
+
+    public void Release()
+    {
+        StartCoroutine(Despawn());
+        spawnThrowable.Spawn();
     }
 
     /*private void OnCollisionEnter(Collision other)

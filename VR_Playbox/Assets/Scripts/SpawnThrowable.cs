@@ -10,10 +10,16 @@ public class SpawnThrowable : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (ThrowManager.instance.curballs < ThrowManager.instance.maxballs)
+        /*if (ThrowManager.instance.curballs < ThrowManager.instance.maxballs)
         {
-            Instantiate(throwablePrefab, spawnPosition.position, spawnPosition.rotation, null);
-            ThrowManager.instance.curballs++;
-        }
+            Spawn();
+        }*/
+    }
+
+    public void Spawn()
+    {
+        GameObject o = Instantiate(throwablePrefab, spawnPosition.position, spawnPosition.rotation, null);
+        ThrowManager.instance.curballs++;
+        o.GetComponent<thrownObjectStuff>().spawnThrowable = this.GetComponent<SpawnThrowable>();
     }
 }
