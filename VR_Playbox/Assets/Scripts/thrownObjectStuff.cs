@@ -14,12 +14,18 @@ public class thrownObjectStuff : MonoBehaviour
     {
         gameObject.AddComponent<Rigidbody>();
         audioSource = gameObject.AddComponent<AudioSource>();
+        StartCoroutine(DespawnInactive());
     }
 
     public void Release()
     {
         StartCoroutine(Despawn());
         spawnThrowable.Spawn();
+    }
+
+    public void Grab()
+    {
+        StopCoroutine(DespawnInactive());
     }
 
     /*private void OnCollisionEnter(Collision other)
@@ -32,6 +38,14 @@ public class thrownObjectStuff : MonoBehaviour
     {
         yield return new WaitForSeconds(lifetime);
         ThrowManager.instance.curballs--;
+        Destroy(this.gameObject);
+    }
+
+    IEnumerator DespawnInactive()
+    {
+        yield return new WaitForSeconds(lifetime*2);
+        ThrowManager.instance.curballs--;
+        spawnThrowable.Spawn();
         Destroy(this.gameObject);
     }
 }
