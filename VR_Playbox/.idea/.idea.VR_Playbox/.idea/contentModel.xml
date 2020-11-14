@@ -16,7 +16,6 @@
           <e p="ResetGameItems.cs" t="Include" />
           <e p="SpawnThrowable.cs" t="Include" />
           <e p="Teleport.cs" t="Include" />
-          <e p="ThrowManager.cs" t="Include" />
           <e p="thrownObjectStuff.cs" t="Include" />
         </e>
         <e p="SteamVR" t="Include">

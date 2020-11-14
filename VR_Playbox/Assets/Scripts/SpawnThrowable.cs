@@ -7,19 +7,12 @@ public class SpawnThrowable : MonoBehaviour
 {
     public GameObject throwablePrefab;
     public Transform spawnPosition;
-
-    private void OnTriggerExit(Collider other)
-    {
-        /*if (ThrowManager.instance.curballs < ThrowManager.instance.maxballs)
-        {
-            Spawn();
-        }*/
-    }
+    public int spawnedObjects = 1;
 
     public void Spawn()
     {
         GameObject o = Instantiate(throwablePrefab, spawnPosition.position, spawnPosition.rotation, null);
-        ThrowManager.instance.curballs++;
         o.GetComponent<thrownObjectStuff>().spawnThrowable = this.GetComponent<SpawnThrowable>();
+        spawnedObjects++;
     }
 }

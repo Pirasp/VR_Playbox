@@ -26,6 +26,7 @@ public class thrownObjectStuff : MonoBehaviour
     public void Grab()
     {
         StopCoroutine(DespawnInactive());
+        StopCoroutine(Despawn());
     }
 
     /*private void OnCollisionEnter(Collision other)
@@ -37,15 +38,17 @@ public class thrownObjectStuff : MonoBehaviour
     IEnumerator Despawn()
     {
         yield return new WaitForSeconds(lifetime);
-        ThrowManager.instance.curballs--;
         Destroy(this.gameObject);
+        spawnThrowable.spawnedObjects--;
     }
 
     IEnumerator DespawnInactive()
     {
         yield return new WaitForSeconds(lifetime*2);
-        ThrowManager.instance.curballs--;
-        spawnThrowable.Spawn();
         Destroy(this.gameObject);
+        spawnThrowable.spawnedObjects--;
+        
+        if(spawnThrowable.spawnedObjects<1)
+            spawnThrowable.Spawn();
     }
 }
