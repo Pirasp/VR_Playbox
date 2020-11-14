@@ -14,7 +14,6 @@ public class thrownObjectStuff : MonoBehaviour
     {
         gameObject.AddComponent<Rigidbody>();
         audioSource = gameObject.AddComponent<AudioSource>();
-        StartCoroutine(Despawn());
     }
 
     public void Release()
