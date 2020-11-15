@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d63b449-0cc0-465d-a461-6844e1088ff2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Playbox/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Playbox/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Playbox/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Playbox/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Playbox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Playbox/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnThrowable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnThrowable.cs" afterDir="false" />
@@ -72,8 +73,8 @@
         <option value="$PROJECT_DIR$/Assets/ScriptCollectionImports/GenericButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ResetGameItems.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GrabObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnThrowable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/thrownObjectStuff.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnThrowable.cs" />
       </list>
     </option>
   </component>
@@ -124,7 +125,7 @@
       <workItem from="1604518180696" duration="3310000" />
       <workItem from="1605128319952" duration="377000" />
       <workItem from="1605201715502" duration="748000" />
-      <workItem from="1605370356363" duration="1280000" />
+      <workItem from="1605370356363" duration="2070000" />
     </task>
     <servers />
   </component>
